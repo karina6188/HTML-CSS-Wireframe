@@ -1,0 +1,106 @@
+header {
+  background-color: rgb(94, 94, 94);
+  display: inline-block;
+  padding: 20px 80px;
+  top: 0px;
+  width: 100%;
+}
+
+ul > li {
+  color: rgb(197, 197, 197);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+  display: inline-grid;
+  margin: 27px 40px;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
+  font-style: italic;
+  line-height: 28px;
+}
+
+footer {
+  background-color: rgb(94, 94, 94);
+  bottom: 0px;
+  margin-top: 465px;
+  padding: 70px;
+  width: 100%;
+}
+
+.header {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: auto auto;
+  min-width: 1120px;
+}
+
+.logo {
+  grid-column: 1;
+  grid-row: 1;
+  position: absolute;
+}
+
+.nav-item1 {
+  margin-left: 250px;
+}
+
+.hero-img {
+  margin: 30px 80px;
+}
+
+.sub-banner {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto auto auto;
+  margin: 0px 80px;
+  max-width: 960px;
+}
+
+.last-row {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto auto;
+  margin: 30px 80px;
+  max-width: 960px;
+  position: absolute;
+}
+
+.img-text {
+  grid-column: 2;
+  grid-row: 1;
+  height: 340px;
+  overflow: scroll;
+  position: absolute;
+  width: 480px;
+}
+
+.button {
+  background-color: black;
+  border-radius: 3px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
+  grid-column: 2;
+  grid-row: 2;
+  line-height: 35px;
+  margin-top: 355px;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  width: 150px;
+}
+
+.button:hover {
+  background-color: rgb(146, 146, 146);
+  transition: 350ms all;
+}
